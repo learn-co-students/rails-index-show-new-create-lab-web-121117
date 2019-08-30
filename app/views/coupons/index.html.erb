@@ -1,0 +1,6 @@
+<div>
+  <% @coupons.each do |c| %>
+    <div><%= link_to c.coupon_code, coupon_path(c) %></div>
+  <% end %>
+  <p>/Chipotle|Jamba/</p>
+</div>
